@@ -1,0 +1,6 @@
+{
+  "name": "Cortouch Media",
+  "description": "Social media management platform for Cortouch Media brand featuring client service requests, analytics reporting, collaborative content approval, and project timeline tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
