@@ -145,3 +145,24 @@ export interface ClientProfile {
   onboardingDate: string;
   activePlatforms: SocialPlatform[];
 }
+
+
+export type UserRole = 'client' | 'agency' | 'admin';
+
+export interface User {
+  id: string;
+  email: string;
+  name: string;
+  role: UserRole;
+  avatar?: string;
+  clientId?: string;
+   companyName?: string; 
+     // link a client user to their ClientProfile
+  createdAt: string;
+}
+
+export interface AuthSession {
+  user: User;
+  token: string;
+  expiresAt: number;   // or string, depending on how you store it
+}

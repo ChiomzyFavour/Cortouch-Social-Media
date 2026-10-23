@@ -19,6 +19,8 @@ import { AnalyticsPage } from './pages/AnalyticsPage';
 import { ContentApprovalPage } from './pages/ContentApprovalPage';
 import { TimelinePage } from './pages/TimelinePage';
 import { RequestsListPage } from './pages/RequestsListPage';
+import { LoginPage } from './pages/LoginPage';
+import { SignUpPage } from './pages/SignUpPage';
 
 // Scroll to top on route change
 function ScrollToTop() {
@@ -45,6 +47,8 @@ export default function App() {
               <Route path="/" element={<HomePage />} />
               <Route path="/services" element={<ServicesPage />} />
               <Route path="/request-service" element={<RequestServicePage />} />
+              <Route path="/login" element={<LoginPage />} />
+              <Route path="/signup" element={<SignUpPage />} />
 
               {/* Integrated Client & Agency Dashboard Routes */}
               <Route path="/dashboard" element={<DashboardLayout />}>

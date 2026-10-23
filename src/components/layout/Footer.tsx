@@ -11,13 +11,14 @@ export const Footer: React.FC = () => {
           {/* Brand Col */}
           <div className="md:col-span-1 space-y-4">
             <div className="flex items-center space-x-2.5">
-             
-               {/* Logo Image */}
-    <img 
-      src="/Images/Cortouch-Media-logo-new-12-removebg-preview.png" 
-      alt="Cortouch Media Logo" 
-      className="h-14 w-auto object-contain" 
-    />
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-indigo-600 via-purple-600 to-pink-500 p-0.5 shadow-sm">
+                <div className="w-full h-full bg-white rounded-[6px] flex items-center justify-center font-bold text-slate-900 text-sm">
+                  C
+                </div>
+              </div>
+              <span className="font-bold text-lg text-slate-900">
+                Cortouch<span className="text-pink-600">.</span>Media
+              </span>
             </div>
             <p className="text-xs leading-relaxed text-slate-500">
               The modern social media management, creative production, and performance marketing studio for culture-defining brands.
@@ -111,11 +112,11 @@ export const Footer: React.FC = () => {
             <div className="space-y-2 text-xs">
               <div className="flex items-center space-x-2 text-slate-600">
                 <Mail className="w-3.5 h-3.5 text-indigo-600" />
-                <span>cortouchmedia.com.ng</span>
+                <span>hello@cortouchmedia.com</span>
               </div>
               <div className="flex items-center space-x-2 text-slate-600">
                 <MapPin className="w-3.5 h-3.5 text-pink-600" />
-                <span>Nigeria • Ibadan • Oyo State</span>
+                <span>London • New York • Milan</span>
               </div>
               <div className="pt-2">
                 <div className="inline-flex items-center space-x-2 px-2.5 py-1.5 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-700 text-[11px] font-semibold">
